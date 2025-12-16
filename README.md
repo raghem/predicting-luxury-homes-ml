@@ -14,6 +14,7 @@ The dataset includes numerical housing features such as:
 - Square Footage
 - Number of Bedrooms
 - Price-derived luxury classification (target)
+
 Dataset included for demonstration purposes. 
 Luxury classification is derived from price thresholds within the dataset.
 
