@@ -26,10 +26,16 @@ The dataset includes numerical housing features such as:
 - Random Forest
 
 ## Model Performance
-Final model evaluation metrics:
-- **MAE:** (see results/metrics.txt)
-- **RMSE:** (see results/metrics.txt)
-- **R²:** (see results/metrics.txt)
+## Model Performance
+The final model achieved the following results on the test dataset:
+- **MAE:** 0.1068  
+- **RMSE:** 0.3268  
+- **R²:** 0.5729  
+
+These results indicate the model explains approximately 57% of the variance
+in luxury home classification, providing a strong baseline for predictive
+real estate analytics.
+
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
