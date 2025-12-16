@@ -14,6 +14,8 @@ The dataset includes numerical housing features such as:
 - Square Footage
 - Number of Bedrooms
 - Price-derived luxury classification (target)
+Dataset included for demonstration purposes. 
+Luxury classification is derived from price thresholds within the dataset.
 
 ## Approach
 1. Data cleaning and preprocessing
@@ -26,7 +28,6 @@ The dataset includes numerical housing features such as:
 - Random Forest
 
 ## Model Performance
-## Model Performance
 The final model achieved the following results on the test dataset:
 - **MAE:** 0.1068  
 - **RMSE:** 0.3268  
@@ -36,6 +37,7 @@ These results indicate the model explains approximately 57% of the variance
 in luxury home classification, providing a strong baseline for predictive
 real estate analytics.
 
+Random Forest was selected as the final model due to stronger predictive performance compared to Logistic Regression.
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
